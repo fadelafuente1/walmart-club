@@ -1,0 +1,21 @@
+<ion-header class="header">
+  <ion-toolbar>
+    <ion-title class="title">
+        Escanear código QR
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content ion-padding>
+<ion-grid >
+  <ion-row class="container">
+    <p class="text">Escanéa el código QR para poder acumular los pesos de ésta compra a tu cuenta</p>
+  </ion-row>
+  <ion-row class="container">
+    <img (click)="openModal()" class="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK8AAACvCAMAAAC8TH5HAAAABlBMVEX///8AAABVwtN+AAABiUlEQVR4nO3TQZLDIAxE0XD/S2ffbiEZHAeb3zsHaD1N1Xw+hBBCCCGEEELIXWmVxDe1ZLweL95dvEPnpYHj9ZcX4q0E70X16QP/XyuFTe5nU/WS9uPFi/c9Xh3d+caLF+/F3uwRXrx4rbd07kepd7geL168y3mzWF/mP1mPF+8G3qHN4nXV+8fg/W3wzik633rdfsf7ZOPx4t3FGxfo6GyKeu0mmhkqXrx4b/P6FjvVPsrO7aYTaLx4H+rtjKpXx+fqjdfDi3cDr51qW7Mp9mppHF68eNf0ZgqtVpSW2Cb9ceJPixfvk722Redn/XrL+s6W4sX7Pq991enSpWJ0vIlfCi9evAt7dV5nFUl80rl0mooX7+O99aV0qi7VoeiPePHu522V6PV4CevXqzNovHgf7z17rqPFd1CN0fDixbuMt0nsuZ8fl9j4pfHixWu92aP4CC9evCVv/PJQ4m4q2i+JFy/eJb2lfQ4ASyldwot3U2+WurezZOkbL95XewkhhBBCCCGEkL3yBU2dIdYLdnGmAAAAAElFTkSuQmCC"/>
+  </ion-row>
+  <ion-row class="container">
+    <ion-button class="btn-1" routerLink="" routerDirection="backward">Volver a generar código</ion-button>
+  </ion-row>  
+</ion-grid>
+</ion-content>

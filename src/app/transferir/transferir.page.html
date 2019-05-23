@@ -1,0 +1,28 @@
+<div *ngIf="message.error" class="alert alert-danger" role="alert">
+  Error en la transferencia
+</div>
+<div *ngIf="message.success" class="alert alert-success" role="alert">
+    Transferencia exitosa
+  </div>
+<ion-header class="header">
+  <ion-toolbar>
+    <ion-title class="title">
+      ¿Cuánto quieres transferir?
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <div class="container">
+    <ion-item>
+      <ion-label>Enviar a </ion-label>
+      <ion-select [(ngModel)]="contact"  placeholder="selecciona">
+        <ion-select-option *ngFor="let contact of contacts" [value]="contact">{{contact.name}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-input class="cantidad" type="text" [(ngModel)]="amount" placeholder="$0"></ion-input>
+    <p>Tu saldo en pesos es: <strong>${{saldo}}</strong></p>
+    <ion-input class="comentario" type="text" [(ngModel)]="comentario" placeholder="Agrega un comentario"></ion-input>
+    <ion-button class="button-action" color="primary" (click)="transferir()">Transferir pesos</ion-button>
+  </div>
+</ion-content>

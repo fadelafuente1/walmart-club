@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957933670",
+    "firebase_url": "https://walclub-6cf4c.firebaseio.com",
+    "project_id": "walclub-6cf4c",
+    "storage_bucket": "walclub-6cf4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957933670:android:b861f0031a464335",
+        "android_client_info": {
+          "package_name": "com.walmart.walclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957933670-lddgt89ls85b2eqrg5kgqaqm3k6n9vjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRJ7pV8MlhBfSFWwN13flBzhaQPtbvIUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957933670-lddgt89ls85b2eqrg5kgqaqm3k6n9vjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

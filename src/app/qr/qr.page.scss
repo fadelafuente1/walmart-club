@@ -1,0 +1,31 @@
+
+.header {
+    font-family: "Bogle-Regular";
+    .title {
+        text-align: center;
+    }
+}
+
+.container{
+    width:"100%";
+    text-align: center;
+    display: block !important;
+    font-family: "Bogle-Regular";
+    .text {
+        padding: 27px;
+        margin-top: 35px;
+        font-size: 17px;
+    }
+    .image {
+        width: 230px;
+        height: 230px;
+        margin-bottom: 100px;
+        margin-top: 36px;
+    }
+    .btn-1{
+        a{
+            background-color: white;
+            border-color: rgbrgb(0,113,206);
+        }
+    }
+}

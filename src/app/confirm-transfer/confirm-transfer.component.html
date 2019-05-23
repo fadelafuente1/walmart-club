@@ -1,0 +1,16 @@
+
+<ion-header class="header">
+  <ion-toolbar>
+    <ion-title class="title">
+      Confirmar transferencia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding text-center>
+  <ion-text color="dark">
+    <h2 *ngIf="transactionInfo">{{transactionInfo.from.name}} vas a transferir {{transactionInfo.amount}} de tus pesos mi club a {{transactionInfo.to.name}}, queremos que confirmes esta operacioón para ser todos felices disfrutando junto a Mi Club</h2>
+    <h2 *ngIf="!transactionInfo">No hay información de la transacción</h2>
+  </ion-text>
+  <button ion-button color="danger" *ngIf="transactionInfo" (click)="openModal($event)">Confirmar</button>
+</ion-content>
